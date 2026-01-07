@@ -1,7 +1,7 @@
 const CACHE_NAME = 'komisi-treatment-orea85-v1';
 const urlsToCache = [
   '/',
-  '/logo.svg',
+  '/logo.png',
   '/static/js/bundle.js',
   '/static/css/main.css',
   '/manifest.json',
@@ -129,7 +129,7 @@ self.addEventListener('fetch', (event) => {
                   </head>
                   <body>
                     <div class="offline-container">
-                      <img src="/logo.svg" alt="OREA 85 Logo" style="width: 80px; height: 80px; border-radius: 50%; margin-bottom: 20px; border: 3px solid #d97706;">
+                      <img src="/logo.png" alt="OREA 85 Logo" style="width: 80px; height: 80px; border-radius: 50%; margin-bottom: 20px; border: 3px solid #d97706;">
                       <h1>Tidak Ada Koneksi Internet</h1>
                       <p>Aplikasi Catatan Harian Komisi Treatment OREA 85 memerlukan koneksi internet untuk berfungsi.</p>
                       <p>Silakan periksa koneksi internet Anda dan coba lagi.</p>
