@@ -587,7 +587,7 @@ const openSharePreview = (data: LogEntry[]) => {
         <div className="text-center space-y-6">
           <div className="flex justify-center">
             <img 
-              src="/logo.png" 
+              src="/logo.svg" 
               alt="OREA 85 Logo" 
               className="w-24 h-24 rounded-full shadow-lg object-cover border-4 border-amber-200"
             />
