@@ -1,96 +1,126 @@
-# 📱 Catatan Harian Komisi Treatment - OREA 85
+# 📱 Komisi Treatment App
 
-Aplikasi pencatatan komisi treatment terapis yang modern dan elegan dikembangkan oleh OREA 85.
+Aplikasi pencatatan komisi treatment therapist yang modern dengan fitur PWA (Progressive Web App).
 
 ## 🌟 Fitur Utama
 
 ### 📝 Manajemen Komisi
-- **Input Data**: Form lengkap dengan 35+ pilihan treatment
-- **Real-time WIB Clock**: Jam digital Indonesia Barat (GMT+7) yang update otomatis
+- **Input Data**: Form lengkap dengan pilihan treatment
+- **Real-time Clock**: Jam digital WIB (GMT+7) yang update otomatis
 - **Auto Date Management**: Pergantian tanggal tengah malam otomatis
-- **Input Time Tracking**: Mencatat waktu input setiap entry
-- **Luxury Design**: UI/UX yang elegan dan modern
+- **Tracking Waktu**: Mencatat waktu input setiap entry
+- **35 Treatment Options**: Lengkap dengan harga komisi yang sudah ditetapkan
 
 ### 📊 Dashboard & Analytics
-- **Weekly Statistics**: Total komisi mingguan dengan navigasi
-- **Daily Logs**: Tabel data harian dengan grouping per tanggal
-- **Export Features**: Export ke CSV dan share ke WhatsApp/Telegram
-- **Smart Filter**: Filter data berdasarkan rentang tanggal
-- **Delete Confirmation**: Hapus data dengan konfirmasi detail
+- **Weekly Statistics**: Total komisi mingguan dengan grafik
+- **Daily Logs**: Tabel data harian dengan filter dan sorting
+- **Export Data**: Export ke CSV dan share ke WhatsApp/Telegram
+- **Delete Management**: Hapus data dengan konfirmasi
+- **Search & Filter**: Pencarian data berdasarkan tanggal dan treatment
 
 ### 🎨 PWA Features
-- **Install to Home Screen**: Bisa diinstall sebagai aplikasi native
+- **Install to Home Screen**: Bisa diinstall sebagai aplikasi
 - **Offline Support**: Berfungsi tanpa koneksi internet
-- **Service Worker**: Cache management untuk performa optimal
-- **Responsive Design**: Berfungsi sempurna di semua device
+- **Push Notifications**: Notifikasi untuk pembaruan
+- **Cache Management**: Optimasi loading dengan cache strategy
+- **Responsive Design**: Berfungsi di semua device
 
-## 🛠️ Teknologi
-
+### 🌐 Teknologi
 - **Framework**: Next.js 15 dengan App Router
-- **Language**: TypeScript 5 untuk type safety
-- **Styling**: Tailwind CSS 4 dengan shadcn/ui components
+- **Styling**: Tailwind CSS dengan shadcn/ui components
+- **Language**: TypeScript untuk type safety
 - **State Management**: React hooks dengan localStorage
-- **Icons**: Lucide React icons
+- **Icons**: Custom PWA icons dengan design modern
 - **Timezone**: WIB (GMT+7) untuk akurasi waktu Indonesia
-- **PWA**: Complete Progressive Web App implementation
 
-## 💰 Daftar Treatment
+## 📱 Treatment List
 
 ### 🪑 Chair Refleksi
-- Chair Refleksi 1 jam: Rp 50.000 (Komisi: Rp 15.000)
-- Chair Refleksi 1,5 jam: Rp 75.000 (Komisi: Rp 22.500)
-- Chair Refleksi 2 jam: Rp 100.000 (Komisi: Rp 30.000)
+- 1 jam: Rp 30.000
+- 1,5 jam: Rp 45.000
+- 2 jam: Rp 60.000
 
-### 💆 Facial Bath (FB)
-- FB 1,5 jam: Rp 120.000 (Komisi: Rp 36.000)
-- FB 2 jam: Rp 150.000 (Komisi: Rp 45.000)
-- FB + Lulur 1,5 jam: Rp 175.000 (Komisi: Rp 52.500)
-- FB + Lulur 2 jam: Rp 200.000 (Komisi: Rp 60.000)
-- FB + Totok Wajah 1,5 jam: Rp 175.000 (Komisi: Rp 52.500)
-- FB + Totok Wajah 2 jam: Rp 200.000 (Komisi: Rp 60.000)
-- FB + Kerokan 1,5 jam: Rp 175.000 (Komisi: Rp 52.500)
-- FB + Kerokan 2 jam: Rp 200.000 (Komisi: Rp 60.000)
-- FB + Refleksi 1,5 jam: Rp 175.000 (Komisi: Rp 52.500)
+### 💆 Full Body (FB)
+- FB 1,5 jam: Rp 52.500
+- FB 2 jam: Rp 67.500
+- FB + Lulur: 1,5 jam: Rp 67.500 | 2 jam: Rp 82.500
+- FB + Totok Wajah: 1,5 jam: Rp 61.500 | 2 jam: Rp 76.500
+- FB + Kerokan: 1,5 jam: Rp 61.500 | 2 jam: Rp 76.500
+- FB + Refleksi: 1,5 jam: Rp 61.500 | 2 jam: Rp 76.500
 
 ### 🎯 Sport Massage
-- Sport Massage 1 jam: Rp 80.000 (Komisi: Rp 24.000)
-- Sport Massage 1,5 jam: Rp 110.000 (Komisi: Rp 33.000)
+- 1 jam: Rp 45.000
+- 1,5 jam: Rp 58.500
 
 ### 🤰 Prenatal
-- Prenatal 1,5 jam: Rp 120.000 (Komisi: Rp 36.000)
-- Prenatal 2 jam: Rp 150.000 (Komisi: Rp 45.000)
-- Prenatal + Lulur 1,5 jam: Rp 175.000 (Komisi: Rp 52.500)
-- Prenatal + Lulur 2 jam: Rp 205.000 (Komisi: Rp 61.500)
+- Prenatal 1,5 jam: Rp 67.500
+- Prenatal 2 jam: Rp 76.500
+- Prenatal + Lulur: 1,5 jam: Rp 75.000 | 2 jam: Rp 93.750
 
-### 👶 Post Natal
-- Post Natal 1 jam: Rp 80.000 (Komisi: Rp 24.000)
-- Pijat Laktasi: Rp 80.000 (Komisi: Rp 24.000)
-- Bengkung: Rp 80.000 (Komisi: Rp 24.000)
-- Post Natal Paket 2 jam: Rp 150.000 (Komisi: Rp 45.000)
+### 👶 Post Natal & Laktasi
+- Post Natal 1 jam: Rp 52.500
+- Pijat Laktasi 30 menit: Rp 45.000
+- Bengkung 30 menit: Rp 37.500
+- Post Natal Paket 2 jam: Rp 127.500
 
 ### 💆 Specialized Treatments
-- Brazilian Lympatic 1 jam: Rp 150.000 (Komisi: Rp 45.000)
-- Brazilian Lympatic 1,5 jam: Rp 200.000 (Komisi: Rp 60.000)
-- Facial Lympatic 30 menit: Rp 100.000 (Komisi: Rp 30.000)
-- Manual Lympatic 1 jam: Rp 120.000 (Komisi: Rp 36.000)
+- Brazilian Lympatic: 1 jam: Rp 157.750 | 1,5 jam: Rp 228.750
+- Facial Lympatic: 30 menit: Rp 52.500
+- Manual Lympatic: 1 jam: Rp 116.250
 
-### ➕ Add On Services
-- Add on FB: Rp 120.000 (Komisi: Rp 36.000)
-- Add on Lulur: Rp 55.000 (Komisi: Rp 16.500)
-- Add on Totok Wajah: Rp 55.000 (Komisi: Rp 16.500)
-- Add on Kerokan: Rp 55.000 (Komisi: Rp 16.500)
-- Add on Refleksi: Rp 55.000 (Komisi: Rp 16.500)
+### ➕ Add-on Services
+- Add on FB: 30 menit: Rp 16.500 | 1 jam: Rp 33.500
+- Add on Lulur: 30 menit: Rp 30.000
+- Add on Totok Wajah: 30 menit: Rp 24.000
+- Add on Kerokan: 30 menit: Rp 24.000
+- Add on Refleksi FB: 30 menit: Rp 24.000
+- Add on Refleksi Chair: 30 menit: Rp 18.000
 
-## 🚀 Installation
+## 🚀 Cara Install & Penggunaan
 
-### Prerequisites
-- Node.js 14+ 
-- npm atau yarn
+### 1. **Install ke Home Screen**
+1. Buka aplikasi di browser (Chrome, Edge, Firefox, Safari)
+2. Klik tombol "Install" atau "Install Aplikasi"
+3. Aplikasi akan terinstall di home screen device
+4. Icon aplikasi akan muncul di home screen
 
-### Development Setup
+### 2. **Akses Offline**
+1. Aplikasi akan berfungsi tanpa koneksi internet
+2. Data tersimpan di browser device
+3. Sinkronisasi otomatis saat koneksi tersedia
+
+### 3. **PWA Features**
+- **App Shortcuts**: Akses cepat ke fitur utama
+- **Background Sync**: Data sinkron di background
+- **Push Notifications**: Notifikasi untuk update penting
+
+## 📊 Data Management
+
+### **Export Options**
+- **CSV Export**: Unduh data dalam format CSV
+- **WhatsApp Share**: Bagikan data ke WhatsApp
+- **Telegram Share**: Bagikan data ke Telegram
+- **Copy to Clipboard**: Salin data ke clipboard
+
+### **Security & Privacy**
+- Data tersimpan lokal di browser device
+- Tidak ada data yang dikirim ke server eksternal
+- Full privacy compliance
+
+## 🛠️ Developer Information
+
+- **Developer**: OREA 85
+- **Version**: 1.0.0
+- **License**: Private
+- **Contact**: Instagram: @orea_85
+- **GitHub**: https://github.com/orea-85/komisi-treatment-app
+
+## 📱 Cara Deployment
+
+### **Development**
 ```bash
 # Clone repository
-git clone https://github.com/orea-85/komisi-treatment-app.git
+git clone https://github.com/FahrulKun/Logbook-orea85.git
 
 # Install dependencies
 cd komisi-treatment-app
@@ -100,147 +130,37 @@ npm install
 npm run dev
 ```
 
-Buka http://localhost:3000 di browser
-
-### Production Build
+### **Production**
 ```bash
 # Build aplikasi
 npm run build
 
-# Start production server
-npm start
-```
-
-## 📱 Cara Penggunaan
-
-### 1. Input Data Treatment
-- Pilih nama treatment dari dropdown
-- Tanggal otomatis menggunakan hari ini (WIB)
-- Komisi terhitung otomatis
-- Klik "Add Entry" untuk menyimpan
-
-### 2. View Data
-- Data dikelompokkan per tanggal
-- Menampilkan waktu input, treatment, dan komisi
-- Statistik real-time total komisi mingguan
-- Navigasi minggu sebelumnya/selanjutnya
-
-### 3. Export & Share
-- **CSV Export**: Download data dalam format CSV
-- **WhatsApp Share**: Bagikan ke WhatsApp
-- **Telegram Share**: Bagikan ke Telegram  
-- **Copy to Clipboard**: Salin data
-
-### 4. Filter Data
-- Filter berdasarkan rentang tanggal
-- Apply filter untuk menampilkan data spesifik
-- Reset filter untuk kembali ke semua data
-
-## 🌐 PWA Installation
-
-### Install ke Home Screen
-1. Buka aplikasi di Chrome/Edge/Firefox/Safari
-2. Klik tombol "Install" yang muncul
-3. Aplikasi akan terinstall di device
-4. Icon muncul di home screen
-
-### Offline Mode
-- Aplikasi berfungsi tanpa internet
-- Data tersimpan lokal di browser
-- Sync otomatis saat online kembali
-
-## 📊 Data Management
-
-### Security & Privacy
-- Data tersimpan 100% lokal di browser
-- Tidak ada pengiriman data ke server
-- Full privacy compliance
-- GDPR compliant
-
-### Backup & Export
-- Export data kapan saja dalam format CSV
-- Share data ke berbagai platform
-- Copy data untuk backup manual
-
-## 🛠️ Developer Information
-
-- **Developer**: OREA 85 Team
-- **Version**: 1.0.0
-- **License**: Private
-- **Contact**: Instagram: @orea_85
-- **Website**: https://orea-85.com
-
-## 📄 Tech Stack Details
-
-### Frontend
-- Next.js 15.3.8 dengan App Router
-- TypeScript 5.7.2
-- Tailwind CSS 4.0
-- shadcn/ui components
-- Lucide React icons
-- date-fns untuk date handling
-
-### PWA Features
-- Service Worker dengan cache-first strategy
-- Complete manifest.json dengan metadata
-- 8 ukuran icons (72x72 hingga 512x512)
-- Splash screens untuk berbagai orientasi
-- Background sync capabilities
-
-### Performance
-- Optimized build dengan Next.js
-- Lazy loading untuk components
-- Efficient caching strategy
-- Minimal bundle size
-- Fast loading times
-
-## 🎯 Deployment Options
-
-### Vercel (Recommended)
-```bash
+# Deploy ke Vercel (recommended)
 npm install -g vercel
 vercel --prod
-```
 
-### Netlify
-```bash
-npm install -g netlify-cli
+# Atau deploy ke Netlify
+npm install -g netlify
 netlify deploy --prod --dir=.next
 ```
 
-### Docker
-```bash
-docker build -t komisi-treatment .
-docker run -p 3000:3000 komisi-treatment
-```
+## 📄 Fitur PWA Compliance
 
-### Static Hosting
-Build dan deploy folder `.next` ke hosting manapun
+✅ **Install Prompt**: Muncul di browser yang mendukung PWA
+✅ **Service Worker**: Background sync dan cache management
+✅ **Manifest Lengkap**: Semua metadata PWA yang diperlukan
+✅ **Icons**: Semua ukuran yang diperlukan App Store
+✅ **Splash Screens**: Untuk berbagai orientasi device
+✅ **Offline Fallback**: Halaman informatif saat offline
 
-## 📱 Browser Support
+## 🎯 Target Platform
 
-- Chrome 80+
-- Firefox 75+
-- Safari 13+
-- Edge 80+
-
-## 🔧 Configuration
-
-### Environment Variables
-Tidak diperlukan untuk development basic
-
-### Customization
-- Edit treatment list di `src/app/page.tsx`
-- Customize styling di `src/app/globals.css`
-- Modify PWA settings di `public/manifest.json`
-
-## 📞 Support
-
-Untuk support dan pertanyaan:
-- Instagram: @orea_85
-- Email: info@orea-85.com
+- **Desktop**: Browser modern dengan PWA support
+- **Mobile**: Install sebagai aplikasi home screen
+- **Tablet**: Responsive design untuk semua ukuran
+- **Progressive**: Meningkat dari web ke native app experience
 
 ---
 
-📱 **Dikembangkan dengan ❤️ oleh OREA 85**  
-🌟 **Untuk therapist Indonesia yang modern dan produktif**# Catatan Harian Komisi Treatment OREA 85
+📱 **Dikembangkan dengan ❤️ oleh OREA 85**
+📞 **Untuk therapist Indonesia yang modern dan produktif**# Logbook-reserva
