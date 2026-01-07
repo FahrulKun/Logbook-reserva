@@ -584,7 +584,14 @@ const openSharePreview = (data: LogEntry[]) => {
     <div key={dateUpdateTrigger} className="min-h-screen bg-gradient-to-br from-amber-50 via-white to-amber-50">
       <div className="max-w-7xl mx-auto px-6 py-12 space-y-10">
         {/* Elegant Header */}
-        <div className="text-center space-y-4">
+        <div className="text-center space-y-6">
+          <div className="flex justify-center">
+            <img 
+              src="/logo.png" 
+              alt="OREA 85 Logo" 
+              className="w-24 h-24 rounded-full shadow-lg object-cover border-4 border-amber-200"
+            />
+          </div>
           <h1 className="text-5xl font-light tracking-tight text-amber-900">
             Logbook Komisi
           </h1>
