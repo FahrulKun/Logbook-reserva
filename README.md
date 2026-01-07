@@ -1,4 +1,4 @@
-# 📱 Komisi Treatment App
+# Logbook-reserva
 
 Aplikasi pencatatan komisi treatment therapist yang modern dengan fitur PWA (Progressive Web App).
 
@@ -113,17 +113,17 @@ Aplikasi pencatatan komisi treatment therapist yang modern dengan fitur PWA (Pro
 - **Version**: 1.0.0
 - **License**: Private
 - **Contact**: Instagram: @orea_85
-- **GitHub**: https://github.com/orea-85/komisi-treatment-app
+- **GitHub**: https://github.com/FahrulKun/Logbook-reserva
 
 ## 📱 Cara Deployment
 
 ### **Development**
 ```bash
 # Clone repository
-git clone https://github.com/FahrulKun/Logbook-orea85.git
+git clone https://github.com/FahrulKun/Logbook-reserva.git
 
 # Install dependencies
-cd komisi-treatment-app
+cd Logbook-reserva
 npm install
 
 # Run development server
@@ -163,4 +163,4 @@ netlify deploy --prod --dir=.next
 ---
 
 📱 **Dikembangkan dengan ❤️ oleh OREA 85**
-📞 **Untuk therapist Indonesia yang modern dan produktif**# Logbook-reserva
+📞 **Untuk therapist Indonesia yang modern dan produktif**
