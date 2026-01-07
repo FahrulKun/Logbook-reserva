@@ -1,14 +1,11 @@
 {
-  "name": "catatan-komisi-treatment-orea85",
-  "version": "1.0.0",
-  "description": "Aplikasi pencatatan komisi treatment terapis yang modern dan elegan oleh OREA 85",
+  "name": "logbook-komisi-orea85",
+  "version": "0.1.0",
   "private": true,
-  "author": "OREA 85",
-  "homepage": "https://orea-85.com",
   "scripts": {
     "dev": "next dev -p 3000 2>&1 | tee dev.log",
-    "build": "next build",
-    "start": "NODE_ENV=production node server.js",
+    "build": "next build && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/",
+    "start": "NODE_ENV=production node .next/standalone/server.js 2>&1 | tee server.log",
     "lint": "next lint",
     "db:push": "prisma db push",
     "db:generate": "prisma generate",
@@ -85,17 +82,6 @@
     "zod": "^4.0.2",
     "zustand": "^5.0.6"
   },
-  "keywords": [
-    "OREA 85",
-    "komisi treatment",
-    "next.js",
-    "typescript",
-    "tailwind css",
-    "react",
-    "treatment management",
-    "spa",
-    "pwa"
-  ],
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",

@@ -1,11 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Static export configuration for shared hosting
-  output: 'export',
-  trailingSlash: true,
-  distDir: 'out',
-  // Remove standalone for shared hosting compatibility
+  // Remove static export for development mode
   typescript: {
     ignoreBuildErrors: true,
   },

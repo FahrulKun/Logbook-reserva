@@ -71,7 +71,7 @@ self.addEventListener('fetch', (event) => {
                 <!DOCTYPE html>
                 <html>
                   <head>
-                    <title>Offline - Catatan Harian Komisi Treatment - OREA 85</title>
+                    <title>Offline - Catatan Harian Komisi Treatment</title>
                     <meta charset="utf-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
                     <style>
@@ -124,17 +124,13 @@ self.addEventListener('fetch', (event) => {
                       .retry-btn:hover {
                         background: #b45309;
                       }
-                      .brand {
-                        color: #d97706;
-                        font-weight: bold;
-                      }
                     </style>
                   </head>
                   <body>
                     <div class="offline-container">
                       <div class="offline-icon">📱</div>
                       <h1>Tidak Ada Koneksi Internet</h1>
-                      <p>Aplikasi <span class="brand">Catatan Harian Komisi Treatment - OREA 85</span> memerlukan koneksi internet untuk berfungsi.</p>
+                      <p>Aplikasi Catatan Harian Komisi Treatment OREA 85 memerlukan koneksi internet untuk berfungsi.</p>
                       <p>Silakan periksa koneksi internet Anda dan coba lagi.</p>
                       <button class="retry-btn" onclick="window.location.reload()">
                         Coba Lagi
@@ -184,7 +180,7 @@ self.addEventListener('push', (event) => {
   };
 
   event.waitUntil(
-    self.registration.showNotification('Komisi Treatment - OREA 85', options)
+    self.registration.showNotification('Komisi Treatment OREA 85', options)
   );
 });
 

@@ -1,7 +1,7 @@
 {
-  "name": "Catatan Harian Komisi Treatment - OREA 85",
-  "short_name": "Komisi OREA 85",
-  "description": "Aplikasi pencatatan komisi treatment terapis modern dan elegan oleh OREA 85",
+  "name": "Catatan Harian Komisi Treatment",
+  "short_name": "Komisi Treatment",
+  "description": "Aplikasi pencatatan komisi treatment therapist dengan fitur real-time tracking dan manajemen data",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f59e0b",
@@ -10,10 +10,6 @@
   "scope": "/",
   "lang": "id-ID",
   "categories": ["business", "productivity", "finance"],
-  "developer": {
-    "name": "OREA 85",
-    "url": "https://orea-85.com"
-  },
   "shortcuts": [
     {
       "name": "Tambah Entry",

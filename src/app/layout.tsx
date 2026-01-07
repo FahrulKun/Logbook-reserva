@@ -14,24 +14,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Catatan Harian Komisi Treatment - OREA 85",
-  description: "Aplikasi pencatatan komisi treatment terapis yang modern dan elegan. Dikembangkan oleh OREA 85 dengan Next.js, TypeScript, dan Tailwind CSS.",
-  keywords: ["OREA 85", "Komisi Treatment", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "React", "Treatment Management"],
-  authors: [{ name: "OREA 85 Team" }],
+  title: "Logbook Komisi Treatment - OREA 85",
+  description: "Aplikasi management system for treatment commissions by OREA 85. Built with Next.js, TypeScript, and Tailwind CSS.",
+  keywords: ["OREA 85", "Komisi Treatment", "Next.js", "TypeScript", "Tailwind CSS", "React", "Treatment Management"],
+  authors: [{ name: "OREA 85" }],
   icons: {
-    icon: "/icons/icon.svg",
+    icon: "/favicon.ico",
   },
   openGraph: {
-    title: "Catatan Harian Komisi Treatment - OREA 85",
-    description: "Aplikasi management komisi treatment terapis yang modern dan elegan",
-    url: "https://orea-85.com",
-    siteName: "OREA 85",
+    title: "Logbook Komisi Treatment - OREA 85",
+    description: "Aplikasi management system for treatment commissions by OREA 85",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Catatan Harian Komisi Treatment - OREA 85",
-    description: "Aplikasi management komisi treatment terapis yang modern dan elegan",
+    title: "Logbook Komisi Treatment - OREA 85",
+    description: "Aplikasi management system for treatment commissions by OREA 85",
   },
 };
 
@@ -50,8 +48,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="Komisi Treatment" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
-        <link rel="icon" href="/icons/icon-192x192.png" />
-        <link rel="shortcut icon" href="/icons/icon-96x96.png" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
