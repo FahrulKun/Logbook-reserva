@@ -243,4 +243,4 @@ Untuk support dan pertanyaan:
 ---
 
 📱 **Dikembangkan dengan ❤️ oleh OREA 85**  
-🌟 **Untuk therapist Indonesia yang modern dan produktif**
+🌟 **Untuk therapist Indonesia yang modern dan produktif**# Catatan Harian Komisi Treatment OREA 85
