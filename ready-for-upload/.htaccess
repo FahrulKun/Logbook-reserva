@@ -1,6 +1,10 @@
 # Enable rewrite engine
 RewriteEngine On
 
+# Force HTTPS redirect
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 # Handle PWA manifest and service worker
 RewriteRule ^manifest\.json$ - [L]
 RewriteRule ^service-worker\.js$ - [L]
