@@ -41,7 +41,7 @@ yarn-error.log*
 next-env.d.ts
 local-*
 .claude
-.z-ai-config
+.orea85-config
 dev.log
 test
 prompt
