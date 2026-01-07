@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Remove static export for development mode
+  // Vercel-optimized configuration
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -9,11 +9,15 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // Handle images and assets
+  // Handle images and assets for Vercel
   images: {
-    domains: ['orea-85.com'],
-    unoptimized: true,
+    domains: ['i.ibb.co', 'orea-85.com'],
+    unoptimized: false,
   },
+  // Output configuration
+  output: undefined, // Let Vercel handle the build output
+  // Remove trailing slash for better SEO
+  trailingSlash: false,
 };
 
 export default nextConfig;
